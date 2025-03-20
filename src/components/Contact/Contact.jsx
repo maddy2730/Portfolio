@@ -25,21 +25,19 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios
-      .post(
-        'https://sheet.best/api/sheets/1fc49a2f-4c2a-48a0-80dc-e3f6173d0e43',
-        form
-      )
-      .then((response) => {
-        console.log(response);
-        // clear forms value
-        setForm({
-          name: '',
-          email: '',
-          subject: '',
-          message: '',
-        });
-      });
+    axios.post('http://localhost:8000/api/userforma/formdatas', {
+      name: "Akash Sharma",
+      email: "akashsharma11@gmail.com",
+      subject: "abccqdowqed",
+      message: "dcvsdvc"
+  })
+  .then(response => {
+      console.log('Response:', response.data);
+  })
+  .catch(error => {
+      console.error('Error:', error);
+  });
+  
   };
 
   return (
@@ -67,7 +65,7 @@ const Contact = () => {
               Address
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              Iran, Isfahan, Farhang st No.26
+            Tulsi colony kanker khera meerut No.26
             </p>
           </div>
           <div className='contact__card'>
@@ -89,7 +87,7 @@ const Contact = () => {
               Email
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              ikhaki71@gmail.com
+              akashsharma88917@gmail.com
             </p>
           </div>
           <div className='contact__card'>
@@ -100,7 +98,7 @@ const Contact = () => {
               Phone
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              +98 913 603 9501
+              +917579320174
             </p>
           </div>
         </div>

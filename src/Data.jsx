@@ -38,10 +38,10 @@ export const links = [
     name: 'Pricing',
     path: 'pricing',
   },
-  {
-    name: 'Blog',
-    path: 'blog',
-  },
+  // {
+  //   name: 'Blog',
+  //   path: 'blog',
+  // },
   {
     name: 'Contact',
     path: 'contact',
@@ -217,7 +217,7 @@ export const project = [
     description:
       'Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.',
     url: 'https://digicosmetics.netlify.app',
-    sourceUrl: 'https://github.com/khakiiman/digiCosmetics',
+    // sourceUrl: 'https://github.com/khakiiman/digiCosmetics',
   },
 
   {
@@ -227,8 +227,8 @@ export const project = [
     title: 'Developer Portfolio',
     description:
       'This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.',
-    url: 'http://imankhaki.netlify.app/',
-    sourceUrl: 'https://github.com/khakiiman/portfolio',
+    url: 'https://portfolio-blush-nine-51.vercel.app/#home',
+    sourceUrl: 'https://github.com/maddy2730/Portfolio',
   },
 
   {
@@ -238,8 +238,8 @@ export const project = [
     title: 'AgHub',
     description:
       'India’s farmers are constantly threatened by adverse weather and environmental conditions',
-    url: 'https://newapplestore.netlify.app/',
-    sourceUrl: 'https://github.com/khakiiman/applestore',
+    url: 'https://ag-hub.vercel.app/',
+    sourceUrl: 'https://github.com/maddy2730/AgHub',
   },
 
   {
@@ -257,83 +257,83 @@ export const project = [
 export const cv = [
   {
     id: 1,
-    title: 'University of Tehran',
-    subtitle: 'M.Sc. in Engineering',
-    date: '2014 - 2016',
+    title: 'CodeCamp Web Development Certification',
+    subtitle: 'Web Development',
+    date: 'June-2024 - Aug-2024',
     description:
-      'The Master of Science in Hydraulic Engineering program at the University of Tehran is a two-year postgraduate degree that provides students with advanced knowledge of water structural engineering.',
+      'FreeCodeCamp offers a comprehensive Web Development certification covering HTML, CSS, JavaScript, Node.js, React, and other essential web development technologies.',
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'SQL Server',
-    date: '2012 - 2013',
+    title: 'Azure Fundamentals',
+    subtitle: 'web applications',
+    date: 'Dec-2024 - Jan-2025',
     description:
-      'The SQL Server Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of SQL Server databases, including database design, administration, and programming.',
+      ' This certification is ideal if you re interested in cloud services for web applications. It covers the basics of cloud computing and how to use Azure for building and hosting web applications.',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'C#.Net',
-    date: '2012 - 2013',
+    title: ' Coursera',
+    subtitle: 'Full-Stack Web Development ',
+    date: '2025 - PRESENT',
     description:
-      'The C#.Net Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of C# programming language and .NET framework.',
+      'This Coursera certification is perfect for developers who want to specialize in full-stack development using React, Node.js, and other technologies.',
     category: 'education',
   },
 
-  {
-    id: 4,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '0000 - 0000',
-    description:
-      'Coming Soon...',
-    category: 'education',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '0000 - 0000',
+  //   description:
+  //     'Coming Soon...',
+  //   category: 'education',
+  // },
 
   {
     id: 5,
-    title: 'Freelancing (Web Development)',
-    subtitle: 'GolsamSepahan Blog',
-    date: '2022 - PRESENT',
+    title: 'Exposy-Data-lab',
+    subtitle: 'Web Development ',
+    date: 'Jan-2023 - Feb-2023',
     description:
-      'As a freelance frontend developer, I was responsible for developing the frontend of a blog website from scratch, which involved creating an intuitive and visually engaging user interface. My responsibilities included designing and implementing responsive layouts, optimizing website performance, and ensuring cross-browser compatibility.',
+      'This is perfect for us to specialize in full-stack development using React, Node.js, and other technologies.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    title: 'VBS-Tech-Solution',
+    subtitle: 'Web Developer',
+    date: 'March-2023 - PRESENT',
     description:
-      'Coming Soon....',
+      'As a web developer at VBS-Tech-Solution, I am responsible for designing, developing, and maintaining web applications for clients across various industries. My role involves collaborating closely with the design and product teams to create visually appealing and highly functional websites and applications. With a focus on modern web technologies, I use tools like HTML, CSS, JavaScript, React, and Node.js to build responsive, user-friendly, and efficient digital solutions.',
     category: 'experience',
   },
 
-  {
-    id: 7,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
-    description:
-      'Coming Soon....',
-    category: 'experience',
-  },
+  // {
+  //   id: 7,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '000 - 0000',
+  //   description:
+  //     'Coming Soon....',
+  //   category: 'experience',
+  // },
   
-  {
-    id: 8,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
-    description:
-      'Coming Soon....',
-    category: 'experience',
-  },
+  // {
+  //   id: 8,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '000 - 0000',
+  //   description:
+  //     'Coming Soon....',
+  //   category: 'experience',
+  // },
 
 ];
 
@@ -344,7 +344,7 @@ export const testimonial = [
     name: 'Barbara Wilson',
     author: 'CEO Company',
     description:
-      'Coming Soon...',
+      'Barbara Wilson has been an incredible asset to our company. Her strategic vision and leadership have been crucial in driving growth and success. We highly recommend her services.',
   },
   {
     id: 2,
@@ -352,7 +352,7 @@ export const testimonial = [
     name: 'Charlie Smith',
     author: 'Designer',
     description:
-      'Coming Soon...',
+      'Charlie Smith is a creative genius. His designs consistently exceed expectations and help bring our ideas to life. His professionalism and attention to detail are unmatched.',
   },
   {
     id: 3,
@@ -360,7 +360,7 @@ export const testimonial = [
     name: 'Roy Wang',
     author: 'Manager GYM',
     description:
-      'Coming Soon...',
+      'Roy Wang has transformed our fitness center with his dedication to excellence. His customer service skills are top-notch, and he has a natural ability to motivate and inspire others.',
   },
   {
     id: 4,
@@ -368,7 +368,7 @@ export const testimonial = [
     name: 'Jennifer Smith',
     author: 'CEO & Founder',
     description:
-      'Coming Soon...',
+      'Jennifer Smith’s expertise in leadership and business strategy has been invaluable to our organization. Her innovative approach has helped us navigate challenges and achieve new heights.',
   },
   {
     id: 5,
@@ -376,9 +376,10 @@ export const testimonial = [
     name: 'Paul Freeman',
     author: 'Photographer',
     description:
-      'Coming Soon...',
+      'Paul Freeman is a phenomenal photographer with an eye for detail and a creative vision that captures the essence of every subject. Working with him was an unforgettable experience.',
   },
 ];
+
 
 export const post = [
   {

@@ -41,31 +41,26 @@ const Pricing = () => {
           <ul className='mb-[35px] text-titleColor dark:text-titleColorDark'>
             <li className='relative m-[5px] flex items-center gap-4 text-normal'>
               <FaCheck className='text-primaryColor text-h5Size' />
-              <span className=''>Coming Soon...</span>
+              <span className=''>Responsive Web Design</span>
             </li>
             <li className='relative m-[5px] flex items-center gap-4 text-normal'>
               <FaCheck className='text-primaryColor text-h5Size' />
-              <span className=''>Coming Soon...</span>
+              <span className=''>Cross-Browser Compatibility</span>
             </li>
             <li className='relative m-[5px] flex items-center gap-4 text-normal text-[#676767]'>
               <HiXMark className='text-red text-h5Size stroke-2' />
-              <span className='line-through'> Coming Soon...</span>
+              <span className='line-through'>Custom Graphics</span>
             </li>
             <li className='relative m-[5px] flex items-center gap-4 text-normal text-[#676767]'>
               <HiXMark className='text-red text-h5Size stroke-2' />
-              <span className='line-through'>Coming Soon...</span>
+              <span className='line-through'>E-commerce Integration</span>
             </li>
           </ul>
 
           <div className='flex justify-start'>
             <a
               href='#'
-              className='btn__start flex items-center justify-center w-[75%] gap-4 text-titleColor dark:text-titleColorDark text-tiny border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[15px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor font-[700]
-            
-            before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1]
-            
-            hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100
-            '
+              className='btn__start flex items-center justify-center w-[75%] gap-4 text-titleColor dark:text-titleColorDark text-tiny border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[15px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor font-[700]'
             >
               <span className='z-[1] text-large text-titleColor dark:text-titleColorDark font-[Jost]'>
                 Start&nbsp;
@@ -104,38 +99,33 @@ const Pricing = () => {
             <ul className='mb-[35px] dark:text-titleColorDark'>
               <li className='relative m-[5px] flex items-center gap-4 text-normal'>
                 <FaCheck className='text-primaryColor text-h5Size' />
-                <span className=''>Coming Soon...</span>
+                <span className=''>24/7 Support</span>
               </li>
               <li className='relative m-[5px] flex items-center gap-4 text-normal'>
                 <FaCheck className='text-primaryColor text-h5Size' />
-                <span className=''>Coming Soon...</span>
+                <span className=''>Custom UI/UX Design</span>
               </li>
               <li className='relative m-[5px] flex items-center gap-4 text-normal'>
                 <FaCheck className='text-primaryColor text-h5Size' />
-                <span className=''>Coming Soon...</span>
+                <span className=''>Content Management System</span>
               </li>
               <li className='relative m-[5px] flex items-center gap-4 text-normal text-[#676767]'>
                 <HiXMark className='text-red text-h5Size stroke-2' />
-                <span className='line-through'>Coming Soon...</span>
+                <span className='line-through'>Multilingual Support</span>
               </li>
             </ul>
 
             <div className='flex justify-center'>
-            <a
-              href='#'
-              className='btn__start flex items-center justify-center w-[75%] gap-4 text-titleColor dark:text-titleColorDark text-tiny border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[15px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor font-[700]
-            
-            before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1]
-            
-            hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100
-            '
-            >
-              <span className='z-[1] text-large text-titleColor dark:text-titleColorDark font-[Jost]'>
-                Start&nbsp;
-                <span className='text-primaryColor font-[700]'>Project</span>
-              </span>
-              <FaArrowRight className='z-[2] text-large text-titleColor dark:text-titleColorDark' />
-            </a>
+              <a
+                href='#'
+                className='btn__start flex items-center justify-center w-[75%] gap-4 text-titleColor dark:text-titleColorDark text-tiny border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[15px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor font-[700]'
+              >
+                <span className='z-[1] text-large text-titleColor dark:text-titleColorDark font-[Jost]'>
+                  Start&nbsp;
+                  <span className='text-primaryColor font-[700]'>Project</span>
+                </span>
+                <FaArrowRight className='z-[2] text-large text-titleColor dark:text-titleColorDark' />
+              </a>
               <img
                 src={shapeTwo}
                 alt='shape for design testimonial cards'
@@ -148,47 +138,42 @@ const Pricing = () => {
         {/* Full Time */}
         <div className='pricing__item card md:col-start-2 md:col-end-4 lg:col-start-3 lg:col-end-4 border-bgColorDark border-2 border-solid dark:border-8 dark:border-[rgba(255, 255, 255, 0.91)] dark:border-solid  card-one bg-containerColor dark:bg-containerColorDark rounded-2xl p-8 relative overflow-hidden'>
           <span className='font-[700] text-tiny text-titleColor dark:text-titleColorDark block mb-[65px] uppercase tracking-[0.05em]'>
-            Hourly Basis
+            Full-Time
           </span>
 
           <h3 className='text-h2Size leading-[1] mb-[20px] font-[700] text-titleColor dark:text-titleColorDark'>
             990 <span className='text-primaryColor'>$</span>{' '}
-            <em className='text-normal not-italic ml-[15px]'>Hour</em>
+            <em className='text-normal not-italic ml-[15px]'>Month</em>
           </h3>
 
           <p className='pb-[30px] text-textColor dark:text-textColorDark'>
-            This plan is ideal for those who need occasional frontend
-            development services for small projects or fixes. Features:
+            This plan is ideal for those who need ongoing, full-time frontend
+            development services for large-scale projects. Features:
           </p>
 
           <ul className='mb-[35px] text-titleColor dark:text-titleColorDark'>
             <li className='relative m-[5px] flex items-center gap-4 text-normal'>
               <FaCheck className='text-primaryColor text-h5Size' />
-              <span className=''>Coming Soon...</span>
+              <span className=''>Dedicated Developer</span>
             </li>
             <li className='relative m-[5px] flex items-center gap-4 text-normal'>
               <FaCheck className='text-primaryColor text-h5Size' />
-              <span className=''>Coming Soon...</span>
+              <span className=''>Project Management Tools</span>
             </li>
             <li className='relative m-[5px] flex items-center gap-4 text-normal'>
               <FaCheck className='text-primaryColor text-h5Size' />
-              <span className=''>Coming Soon...</span>
+              <span className=''>Unlimited Revisions</span>
             </li>
             <li className='relative m-[5px] flex items-center gap-4 text-normal'>
               <FaCheck className='text-primaryColor text-h5Size' />
-              <span className=''>Coming Soon...</span>
+              <span className=''>Weekly Progress Reports</span>
             </li>
           </ul>
 
           <div className='flex justify-start'>
             <a
               href='#'
-              className='btn__start flex items-center justify-center w-[75%] gap-4 text-titleColor dark:text-titleColorDark text-tiny border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[15px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor font-[700]
-            
-            before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1]
-            
-            hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100
-            '
+              className='btn__start flex items-center justify-center w-[75%] gap-4 text-titleColor dark:text-titleColorDark text-tiny border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[15px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor font-[700]'
             >
               <span className='z-[1] text-large text-titleColor dark:text-titleColorDark font-[Jost]'>
                 Start&nbsp;
