@@ -30,7 +30,7 @@ const Home = () => {
           <p className='uppercase tracking-[0.05em] leading-[1.7] font-[700] text-titleColor dark:text-textColorDark flex items-center justify-center sm:justify-start'>
             Hello,
             <span className='text-large block text-primaryColor'>
-              &nbsp;My Name Is
+              &nbsp;I'M
             </span>
           </p>
 
@@ -41,7 +41,7 @@ const Home = () => {
 
           <p className='font-[700] leading-[1.7] flex items-center justify-center sm:justify-start'>
             <span className='text-small tracking-[0.05em] uppercase text-titleColor dark:text-textColorDark'>
-              I am
+              _A
             </span>
             <b className='font-[Caveat] text-h2Size ml-[10px] text-titleColor dark:text-titleColorDark'>
               Frontend Developer
@@ -49,8 +49,7 @@ const Home = () => {
           </p>
 
           <p className='text-large max-w-[520px] my-[40px] leading-[1.7] text-textColor dark:text-textColorDark font-[Comfortaa] font-[700] flex items-center text-center sm:text-left'>
-            From Meerut. I have rich experience in web development, also
-            good at backend stuff. I love to talk with you about our unique.
+            From Meerut. I bring extensive experience in web development, with a strong focus on backend technologies. I’m always eager to connect and discuss innovative ideas and unique solutions. Whether it's creating seamless front-end experiences or developing efficient back-end systems, I'm passionate about delivering high-quality work. Let’s explore opportunities to collaborate and push the boundaries of what we can achieve together.
           </p>
 
           <div className='flex gap-[20px] mb-[30px] justify-center sm:justify-start'>
