@@ -73,7 +73,7 @@ const Contact = () => {
               <FaRegUser className='text-titleColor dark:text-titleColorDark' />
             </span>
             <h3 className='contact__card-title font-[700] text-titleColor dark:text-titleColorDark'>
-              Freelance
+            Freelancer
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
               Available Right Now
