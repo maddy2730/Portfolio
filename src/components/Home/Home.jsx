@@ -49,7 +49,7 @@ const Home = () => {
           </p>
 
           <p className='text-large max-w-[520px] my-[40px] leading-[1.7] text-textColor dark:text-textColorDark font-[Comfortaa] font-[700] flex items-center text-center sm:text-left'>
-            From Meerut. I bring extensive experience in web development, with a strong focus on backend technologies. I’m always eager to connect and discuss innovative ideas and unique solutions. Whether it's creating seamless front-end experiences or developing efficient back-end systems, I'm passionate about delivering high-quality work. Let’s explore opportunities to collaborate and push the boundaries of what we can achieve together.
+          I have a passion for frontend development, backed by strong knowledge of backend technologies. Let’s connect and build something exceptional.
           </p>
 
           <div className='flex gap-[20px] mb-[30px] justify-center sm:justify-start'>
