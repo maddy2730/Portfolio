@@ -23,20 +23,10 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8000/api/userforma/formdatas', {
-      name: "Akash Sharma",
-      email: "akashsharma11@gmail.com",
-      subject: "abccqdowqed",
-      message: "dcvsdvc"
-  })
-  .then(response => {
-      console.log('Response:', response.data);
-  })
-  .catch(error => {
-      console.error('Error:', error);
-  });
+    let responces = await  axios.post('http://localhost:8000/api/userforma/formdatas', form)
+    console.log(responces);
   
   };
 
