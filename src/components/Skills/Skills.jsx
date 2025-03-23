@@ -89,7 +89,6 @@ const Skills = () => {
 	</svg>
 </a>
 </div> */}
-
       </div>
      <div id="popup1" class="overlay">
   <div class="popup">
