@@ -1,10 +1,14 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  build: {
-    outDir: 'build', // Change output directory to 'build' for Vercel compatibility
+  server: {
+    proxy: {
+      // This will proxy requests starting with /api to your backend
+      '/api': {
+        target: 'http://localhost:6000', // Backend URL
+        changeOrigin: true, // Changes the origin of the request to the target URL
+        rewrite: (path) => path.replace(/^\/api/, ''), // Optionally rewrite paths (removes /api prefix)
+      },
+    },
   },
-})
+});

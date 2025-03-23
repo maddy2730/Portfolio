@@ -25,10 +25,14 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let responces = await  axios.post('http://localhost:8000/api/userforma/formdatas', form)
-    console.log(responces);
-  
+    try {
+      let response = await axios.post('http://localhost:6000/api/userforma/formdatas', form);
+      console.log(response);
+    } catch (error) {
+      console.error("There was an error submitting the form: ", error);
+    }
   };
+  
 
   return (
     <section
