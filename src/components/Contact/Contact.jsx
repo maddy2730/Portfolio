@@ -55,7 +55,7 @@ const Contact = () => {
               Address
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-            Tulsi colony kanker khera meerut No.26
+            Lajpat Nagar Central Market (Block I) No.26
             </p>
           </div>
           <div className='contact__card'>
@@ -66,7 +66,7 @@ const Contact = () => {
             Freelancer
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              Available Right Now
+              Open To Work
             </p>
           </div>
           <div className='contact__card'>
@@ -149,9 +149,9 @@ const Contact = () => {
           </div>
 
           <div className='contact__submit grid grid-cols-1 sm:flex gap-4 items-center justify-center sm:justify-around text-titleColor dark:text-titleColorDark'>
-            <p className='font-[Comfortaa]'>
+            {/* <p className='font-[Comfortaa]'>
               *Accept the terms and conditions.
-            </p>
+            </p> */}
             <button
               type='submit'
               className='flex items-center justify-around w-full sm:w-1/3 text-titleColor dark:text-titleColorDark text-large gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[16px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'

@@ -22,9 +22,9 @@ const Testimonials = () => {
         testimonials
       </h2>
       <p className='leading-[1.7] text-primaryColor uppercase text-smaller font-[700] mb-[60px] text-center'>
-        My
+      What
         <span className='font-[Caveat] text-titleColor dark:text-titleColorDark text-h3Size capitalize ml-[10px]'>
-          Customer Say
+        Clients Say
         </span>
       </p>
 

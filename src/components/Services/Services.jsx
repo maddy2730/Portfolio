@@ -2,6 +2,7 @@ import React from 'react';
 import { service } from '../../Data';
 import { FaArrowRight } from 'react-icons/fa';
 import shapeTwo from '../../assets/shape-2.png';
+import { Link } from 'react-scroll';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -77,13 +78,19 @@ const Services = () => {
               <p className='min-h-[205px] sm:min-h-[175px] text-textColor dark:text-textColorDark'>
                 {description}
               </p>
-              <a
-                href='#'
-                className='inline-flex font-[700] text-titleColor dark:text-titleColorDark items-center'
-              >
-                See pricing
-                <FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
-              </a>
+              <Link
+                   to='pricing'
+                   spy={true}
+                   hashSpy={true}
+                   smooth={true}
+                   offset={-100}
+                   duration={500}
+                   className='cursor-pointer inline-flex font-[700] text-titleColor dark:text-titleColorDark items-center '
+                 >
+See pricing
+<FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
+
+                 </Link>
               <img
                 src={shapeTwo}
                 alt='shape for design service cards'

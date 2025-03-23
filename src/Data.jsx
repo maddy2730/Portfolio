@@ -87,6 +87,7 @@ export const service = [
 ];
 
 export const skill = [
+  // Frontend Skills
   {
     id: 1,
     name: 'HTML',
@@ -94,7 +95,6 @@ export const skill = [
     description:
       'Hypertext Markup Language (HTML) is the standard markup language used to create web pages and web applications.',
   },
-
   {
     id: 2,
     name: 'JavaScript',
@@ -102,7 +102,6 @@ export const skill = [
     description:
       'JavaScript is a scripting language used for creating dynamic web pages and web applications.',
   },
-
   {
     id: 3,
     name: 'React.js',
@@ -110,79 +109,71 @@ export const skill = [
     description:
       'A popular JavaScript library for building user interfaces, React is used to create dynamic and responsive web applications.',
   },
-
   {
     id: 4,
-    name: 'Node.js',
-    percentage: 55,
-    description:
-      'Node.js is a JavaScript runtime built on Chromes V8 engine for building scalable and efficient server-side applications.',
-  },
-
-  {
-    id: 5,
     name: 'TypeScript',
     percentage: 40,
     description:
       'TypeScript is a superset of JavaScript that adds optional static typing and other features to the language.',
   },
-
   {
-    id: 6,
+    id: 5,
     name: 'Tailwind CSS',
     percentage: 60,
     description:
       'Tailwind CSS is a utility-first CSS framework that provides developers with a set of pre-built CSS classes for styling web applications.',
   },
-
   {
-    id: 7,
-    name: 'Git',
-    percentage: 80,
-    description:
-      'Git is a widely used version control system that is essential for collaborative development and project management. ',
-  },
-
-  {
-    id: 8,
-    name: 'Webpack',
-    percentage: 50,
-    description:
-      'Webpack is a module bundler for modern JavaScript applications. It bundles assets, modules, and dependencies into a single file.',
-  },
-
-  {
-    id: 9,
-    name: 'GraphQL',
-    percentage: 30,
-    description:
-      'GraphQL is a query language for APIs that provides a more efficient, powerful and flexible alternative to RESTful APIs.',
-  },
-
-  {
-    id: 10,
-    name: 'RESTful API',
-    percentage: 90,
-    description:
-      'RESTful API is an interface that two computer systems use to exchange information securely over the internet.',
-  },
-
-  {
-    id: 11,
-    name: 'Sass',
-    percentage: 45,
-    description:
-      'Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.',
-  },
-
-  {
-    id: 12,
+    id: 6,
     name: 'Bootstrap',
     percentage: 85,
     description:
       'Bootstrap is a popular CSS framework that provides developers with a set of pre-built UI components.',
   },
+  {
+    id: 7,
+    name: 'Material UI (MUI)',
+    percentage: 70,
+    description:
+      'Material UI is a popular React UI framework that implements Google’s Material Design, providing a comprehensive set of components and styles.',
+  },
+  {
+    id: 8,
+    name: 'Chakra UI',
+    percentage: 65,
+    description:
+      'Chakra UI is a simple, modular, and accessible component library for React, offering a set of customizable UI components.',
+  },
 
+  // Backend Skills
+  {
+    id: 9,
+    name: 'Node.js',
+    percentage: 55,
+    description:
+      'Node.js is a JavaScript runtime built on Chrome\'s V8 engine for building scalable and efficient server-side applications.',
+  },
+  {
+    id: 10,
+    name: 'Express.js',
+    percentage: 65,
+    description:
+      'Express.js is a fast, unopinionated, and minimal web framework for Node.js that simplifies routing and server creation.',
+  },
+  {
+    id: 11,
+    name: 'GraphQL',
+    percentage: 30,
+    description:
+      'GraphQL is a query language for APIs that provides a more efficient, powerful, and flexible alternative to RESTful APIs.',
+  },
+  {
+    id: 12,
+    name: 'RESTful API',
+    percentage: 90,
+    description:
+      'RESTful API is an interface that two computer systems use to exchange information securely over the internet.',
+  },
   {
     id: 13,
     name: 'Redux',
@@ -191,22 +182,61 @@ export const skill = [
       'Redux is a predictable state container for JavaScript apps, used to manage the state of complex applications.',
   },
 
+  // Database Skills
   {
     id: 14,
-    name: 'Zustand',
-    percentage: 65,
+    name: 'MongoDB',
+    percentage: 70,
     description:
-      'Zustand is a small, fast and scalable status management solution. Its state management is centralized and action-based.',
+      'MongoDB is a NoSQL database that provides high performance, high availability, and easy scalability.',
   },
-
   {
     id: 15,
+    name: 'Mongoose',
+    percentage: 65,
+    description:
+      'Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js, making it easier to interact with MongoDB databases.',
+  },
+
+  // Library Skills
+  {
+    id: 16,
+    name: 'Git',
+    percentage: 80,
+    description:
+      'Git is a widely used version control system that is essential for collaborative development and project management.',
+  },
+  {
+    id: 17,
+    name: 'Webpack',
+    percentage: 50,
+    description:
+      'Webpack is a module bundler for modern JavaScript applications. It bundles assets, modules, and dependencies into a single file.',
+  },
+  {
+    id: 18,
+    name: 'Sass',
+    percentage: 45,
+    description:
+      'Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.',
+  },
+  {
+    id: 19,
     name: 'Jest & Cypress',
     percentage: 25,
     description:
-      'Jest and Cypress are JavaScript-based testing framework designed to ensure correctness of any JavaScript codebase.',
+      'Jest and Cypress are JavaScript-based testing frameworks designed to ensure the correctness of any JavaScript codebase.',
+  },
+  {
+    id: 20,
+    name: 'Zustand',
+    percentage: 65,
+    description:
+      'Zustand is a small, fast, and scalable state management solution. Its state management is centralized and action-based.',
   },
 ];
+
+
 
 export const project = [
   {
@@ -218,6 +248,11 @@ export const project = [
       'Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.',
     url: 'https://digicosmetics.netlify.app',
     // sourceUrl: 'https://github.com/khakiiman/digiCosmetics',
+    techStack: 'HTML, CSS, JavaScript, React',
+    challenges:
+      'Ensuring responsiveness across multiple devices while maintaining a clean design.',
+    solutions:
+      'Utilized media queries and flexbox for layout flexibility. Also, implemented React to make the site more dynamic and maintainable.',
   },
 
   {
@@ -229,6 +264,11 @@ export const project = [
       'This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.',
     url: 'https://portfolio-blush-nine-51.vercel.app/#home',
     sourceUrl: 'https://github.com/maddy2730/Portfolio',
+    techStack: 'React, CSS, HTML, GitHub Pages, Vercel',
+    challenges:
+      'Creating a seamless user experience while keeping the website performance optimized.',
+    solutions:
+      'Focused on lazy loading components and optimizing images. Used Vercel for easy deployment and hosting to maintain fast load times.',
   },
 
   {
@@ -237,9 +277,14 @@ export const project = [
     category: 'Ecommerce',
     title: 'AgHub',
     description:
-      'India’s farmers are constantly threatened by adverse weather and environmental conditions',
+      'India’s farmers are constantly threatened by adverse weather and environmental conditions.',
     url: 'https://ag-hub.vercel.app/',
     sourceUrl: 'https://github.com/maddy2730/AgHub',
+    techStack: 'React, Node.js, Express, MongoDB',
+    challenges:
+      'Integrating a smooth user interface with real-time weather data and environmental updates.',
+    solutions:
+      'Used React for the frontend and integrated APIs to fetch real-time weather data. Server-side logic was handled using Node.js and Express, with MongoDB as the database for storing user data and interactions.',
   },
 
   {
@@ -248,11 +293,17 @@ export const project = [
     category: 'Blog',
     title: 'Golsam Sepahan',
     description:
-      'A new design blog provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides. ',
+      'A new design blog that provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides.',
     url: 'https://golsamsepahan.netlify.app',
     sourceUrl: 'https://github.com/khakiiman/golsam-sepahan',
+    techStack: 'HTML, CSS, JavaScript, Node.js, Express',
+    challenges:
+      'Developing a content management system for blog posts with proper categorization and ease of use.',
+    solutions:
+      'Built a simple content management system using Node.js and Express to manage blog posts. Integrated a search feature to help users find content easily.',
   },
 ];
+
 
 export const cv = [
   {
@@ -373,12 +424,13 @@ export const testimonial = [
   {
     id: 5,
     img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
+   name: 'Ravi Kumar',
+    author: 'Entrepreneur',
     description:
-      'Paul Freeman is a phenomenal photographer with an eye for detail and a creative vision that captures the essence of every subject. Working with him was an unforgettable experience.',
+      'Ravi Kumar is an incredibly driven entrepreneur who helped our business expand in the Indian market. His deep understanding of the local business landscape and his networking skills are remarkable. We owe a great deal of our success to his guidance.',
   },
 ];
+
 
 
 export const post = [
