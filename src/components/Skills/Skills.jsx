@@ -63,12 +63,12 @@ const Skills = () => {
             </div>
           );
         })}
-        <div class="box">
+        {/* <div class="box">
   <a class="button" href="#popup1">
     <span class="text-white text-xl font-bold">+</span>
   </a>
-</div>
-{/* <div className="box">
+</div> */}
+<div className="box">
 <a href="#popup1" class="link">
 	<svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' class="link__svg" aria-labelledby="link1-title link1-desc">
 		<title id="link1-title">Come quick and click this</title>
@@ -88,7 +88,8 @@ const Skills = () => {
 		</text>
 	</svg>
 </a>
-</div> */}
+</div>
+
       </div>
      <div id="popup1" class="overlay">
   <div class="popup">
